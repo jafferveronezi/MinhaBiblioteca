@@ -1,4 +1,4 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 
 apply plugin: 'kotlin-android'
 
@@ -13,7 +13,6 @@ group='com.github.jafferveronezi'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "br.com.veronezitecnologia.minhabiblioteca"
         minSdkVersion 19
         targetSdkVersion 28
         versionCode 1
